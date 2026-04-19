@@ -1,0 +1,13 @@
+{
+  "name": "@flutter-doctor/core",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@flutter-doctor/rules": "*",
+    "axios": "^1.15.0"
+  }
+}

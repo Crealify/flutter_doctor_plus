@@ -1,0 +1,74 @@
+{
+  "name": "flutter-doctor-plus",
+  "displayName": "Flutter Doctor Plus",
+  "description": "Smart diagnosis and quick fixes for Flutter build errors.",
+  "version": "1.0.0",
+  "publisher": "crealify",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Linters",
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crealify/flutter_doctor_plus"
+  },
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "flutter-doctor-plus.analyze",
+        "title": "Flutter Doctor: Analyze Project"
+      },
+      {
+        "command": "flutter-doctor-plus.fixAll",
+        "title": "Flutter Doctor: Fix All Issues"
+      }
+    ],
+    "configuration": {
+      "title": "Flutter Doctor Plus",
+      "properties": {
+        "flutter-doctor-plus.openaiApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API Key for AI-assisted error diagnosis."
+        },
+        "flutter-doctor-plus.customRules": {
+          "type": "array",
+          "default": [],
+          "description": "Custom error rules. Format: [{ \"match\": \"regex\", \"problem\": \"description\", \"fix\": \"how to fix\", \"type\": \"category\" }]",
+          "items": {
+            "type": "object",
+            "properties": {
+              "match": { "type": "string" },
+              "problem": { "type": "string" },
+              "fix": { "type": "string" },
+              "type": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "activationEvents": [
+    "onCommand:flutter-doctor-plus.analyze"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "tsc -noEmit",
+    "watch": "tsc -noEmit -watch",
+    "package": "npx esbuild src/extension.ts --bundle --outfile=dist/extension.js --external:vscode --format=cjs --platform=node"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0",
+    "esbuild": "^0.18.0"
+  },
+  "dependencies": {
+    "@flutter-doctor/core": "*",
+    "@flutter-doctor/rules": "*"
+  }
+}

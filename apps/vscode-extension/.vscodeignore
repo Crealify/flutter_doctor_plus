@@ -1,0 +1,16 @@
+# Ignore everything by default
+**/*
+
+# Include only necessary files for runtime
+!dist/extension.js
+!package.json
+!README.md
+!CHANGELOG.md
+!LICENSE
+!assests/demo.gif
+
+# Explicitly ignore development files
+src/**
+node_modules/**
+tsconfig.json
+.eslintrc.json

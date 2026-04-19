@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+out/
+*.vsix
+
+# Environment variables and secrets
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db

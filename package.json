@@ -1,0 +1,18 @@
+{
+  "name": "flutter-doctor-plus-monorepo",
+  "version": "1.0.0",
+  "publisher": "crealify",
+  "displayName": "Flutter Doctor Plus",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "watch": "npm run watch --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
