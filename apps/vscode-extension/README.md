@@ -16,7 +16,7 @@ When a Flutter build fails, developers often spend hours sifting through hundred
 
 ## In Action (Demo)
 
-![Flutter Doctor Plus Full Demo](https://raw.githubusercontent.com/Crealify/flutter_doctor_plus/main/apps/vscode-extension/assests/demo.gif)
+![Flutter Doctor Plus Full Demo](./assests/demo.gif)
 
 ---
 
