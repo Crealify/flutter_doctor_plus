@@ -19,7 +19,7 @@ When a Flutter build fails, developers often spend hours sifting through hundred
 ![Flutter Doctor Plus Full Demo](./assests/demo.gif)
 
 ### Try the Interactive Demo:
-* [**VS Code UI Demo (Local)**](file:///C:/Users/CREALIFY/Desktop/myPlugins/flutter_doctor_plus/apps/vscode-extension/demo-mockup.html) - See the extension catching a missing plugin exception and offering an automated Quick Fix in real-time.
+* [**VS Code UI Demo (Online)**](https://htmlpreview.github.io/?https://github.com/Crealify/flutter_doctor_plus/blob/main/apps/vscode-extension/demo-mockup.html) - See the extension catching a missing plugin exception and offering an automated Quick Fix in real-time.
 
 ---
 

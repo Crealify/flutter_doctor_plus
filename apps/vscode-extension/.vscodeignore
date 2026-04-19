@@ -8,6 +8,7 @@
 !CHANGELOG.md
 !LICENSE
 !assests/demo.gif
+!assests/icon.png
 
 # Explicitly ignore development files
 src/**

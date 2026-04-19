@@ -3,7 +3,8 @@
   "displayName": "Flutter Doctor Plus",
   "description": "Smart diagnosis and quick fixes for Flutter build errors.",
   "version": "1.0.0",
-  "publisher": "crealify",
+  "publisher": "flutterdoctorplus",
+  "icon": "assests/icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },
