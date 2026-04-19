@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./apps/vscode-extension/assests/icon.png" alt="Flutter Doctor Plus Logo" width="150" height="150">
+  <img src="https://raw.githubusercontent.com/Crealify/flutter_doctor_plus/main/apps/vscode-extension/assests/icon.png" alt="Flutter Doctor Plus Logo" width="150" height="150">
   
   # Flutter Doctor Plus 
 
@@ -22,9 +22,7 @@ Flutter Doctor Plus is a premium VS Code extension built to eliminate the frustr
 
 See the intelligence engine catch a missing native plugin exception and offer a real-time, automated Quick Fix:
 
-![Flutter Doctor Plus Full Demo](./apps/vscode-extension/assests/demo.gif)
-
-> **Try the Interactive UI Mockup:** [Click here to see the interactive HTML preview](https://htmlpreview.github.io/?https://github.com/Crealify/flutter_doctor_plus/blob/main/apps/vscode-extension/demo-mockup.html)
+![Flutter Doctor Plus Full Demo](https://raw.githubusercontent.com/Crealify/flutter_doctor_plus/main/apps/vscode-extension/assests/demo.gif)
 
 ---
 
