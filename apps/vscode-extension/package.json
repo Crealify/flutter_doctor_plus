@@ -2,7 +2,7 @@
   "name": "flutter-doctor-plus",
   "displayName": "Flutter Doctor Plus",
   "description": "Smart diagnosis and quick fixes for Flutter build errors.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "flutterdoctorplus",
   "icon": "assests/icon.png",
   "engines": {
